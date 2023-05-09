@@ -1,0 +1,123 @@
+#Unnecessary {
+  z-index: 100;
+  opacity: 0;
+  animation: xyz 1s ease forwards 1s;
+}
+@keyframes xyz {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#Header {
+  z-index: 1;
+  opacity: 0;
+  animation: xyz 1s ease forwards 3s;
+}
+@keyframes xyz {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#Mail {
+  z-index: 10;
+  opacity: 0;
+  animation: xyz 1s ease forwards 2s;
+}
+@keyframes xyz {
+  from {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#Mail1_5 rect {
+  animation: bgcolor 1s ease-in-out forwards 5s;
+}
+@keyframes bgcolor {
+  from {
+    fill: #f5f9ff;
+  }
+  to {
+    fill: #c2dbff;
+  }
+}
+
+#Arrow{
+  opacity: 0;
+  animation: movei 18s ease forwards 6s, blin 18s ease forwards 6s;
+}
+
+@keyframes movei {
+  0% {
+    transform: translateX(-20%) translateY(0) ;
+  
+  }
+  6% {
+    transform: translateX(0) translateY(-41%) ;
+  
+  }
+  8% {
+    transform: translateX(0) translateY(-41%) ;
+
+  }
+  14% {
+    transform: translateX(0) translateY(-20%) ;
+  
+  }
+  16% {
+    transform: translateX(0%) translateY(-20%) ;
+  
+  }
+  19% {
+    transform: translateX(0%) translateY(-15%) ;
+  
+  }
+  21% {
+    transform: translateX(0%) translateY(-15%) ;
+  
+  }
+  64% {
+    transform: translateX(50%) translateY(-10%) ;
+  
+  }
+  100% {
+    transform: translateX(50%) translateY(-80%) ;
+  
+  }
+}
+
+@keyframes blin{
+  6%{opacity: 1;}
+  7%{opacity: 0;}
+  8%{opacity: 1;}
+  14%{opacity:1;}
+  15%{opacity:0;}
+  16%{opacity:1;}
+  19%{opacity:1;}
+  20%{opacity:0;}
+  21%{opacity:1;}
+  100%{opacity: 1;}
+  }
+
+  #check_box_outline_blank_13{
+    display: none;
+  }
+  #check_box{
+    z-index:1000;
+  }
